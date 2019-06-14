@@ -1,0 +1,33 @@
+
+  input, select,textarea {
+    
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-top: solid 2px gray;
+    border-top-right-radius: 4px;
+  }
+  .form{
+   
+    display: grid;
+    grid-template-rows: 100px 100px 150px 150px;
+      }
+  
+.btn{
+    background-color: #4CAF50;
+  color: white;
+}
+#a1{
+    background-color: #f4f4f4;
+}
+#a2{
+    background-color: white;
+}
+table, th, td {
+  border: 1px solid black;
+  }
+  th, td {
+  padding: 10px;
+  width: auto;
+  }

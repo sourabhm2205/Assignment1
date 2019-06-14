@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="MyCSS.css">
+    <script type = "text/javascript" src = "Val.js" ></script>
+    
+    <title>AssignForm</title>
+</head>
+<body>
+        
+        <h2 align=center>Form</h2>
+        <div id="a1">
+    <div class="container">
+       <br><br>
+        <form action="" id="f1" class="form">
+          <div class="row" >
+           First Name: <div class="col-md-3"><input type="text"  id="fname"  onblur=""></div>
+           Middle Name:  
+           <div class="col-md-3"><input type="text" name="" id="mname" ></div> 
+           Last Name:  
+           <div class="col-md-3">  <input type="text" name="" id="lname" ></div> 
+          </div>
+            <div class="row">
+                <div class="col-md-4">Email&nbsp;&nbsp;<input type="email" name="" id="email" ></div> 
+                <div class="col-md-4">Phone No&nbsp; &nbsp;<input type="text"  name="" id="pno" > </div>
+                <div class="col-md-4"> Gender &nbsp;&nbsp; <input type="radio" name="gender" id="male" value="male" checked> Male
+                    <input type="radio" name="gender" id="female" value="female" >Female</div>
+            </div>
+            <div class="row">
+                    Address <div class="col-md-6"> &nbsp; &nbsp;<textarea style="display: inline" id="add" rows="4" cols="50"></textarea></div>
+                
+                 <div class="col-md-5">Date &nbsp;&nbsp;<input  type="date" id="date" class=""></div> 
+            </div>
+            <div class="row">
+               <div class="col-md-4"> Education
+                    <select name="edu"  id="ss">
+                            
+                        <option value="BE">BE</option>
+                            <option value="Btech">BTech</option>
+                            <option value="bca">BCA</option>
+                            <option value="me">ME</option>
+                            <option value="mtech">MTech</option>
+                            <option value="mca">MCA</option>
+                          </select>
+               </div>
+               
+                <div class="col-md-4">Hobbies<input type="checkbox" name="v" value="Music" id="ch1"> Music
+                    <input type="checkbox" name="v" value="Cricket" id="ch2"> Cricket <input type="checkbox" name="v" value="Others" id="ch3" >Others
+                </div>    
+                <div class="col-md-4"><input type="button" class="btn1" id="btn" onclick="f1()" value="Show"></div>
+        </form>
+    </div>
+    <br>
+</div>
+ <div id="a2"></div>
+
+</body>
+
+</html>
